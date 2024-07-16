@@ -3,6 +3,9 @@
    "dev": "node index.js",
    "build": "npm i"
  },
+  "engines": {
+    "node": "20.12.2"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2"
