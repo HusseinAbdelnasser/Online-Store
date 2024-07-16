@@ -96,6 +96,7 @@ const Signin = () => {
                     .then((userCredential) => {
                       // Signed in
                       const user = userCredential.user;
+                      console.log(user)
                       setSuccess("Your Account has been signed successfully");
                       navigate("/");
                       // ...

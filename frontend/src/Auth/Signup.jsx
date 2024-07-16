@@ -85,6 +85,7 @@ const Signup = () => {
                                 .then((userCredential) => {
                                     // Signed in
                                     const user = userCredential.user;
+                                    console.log(user)
                                     sendEmailVerification(auth.currentUser).then(() => {
                                         //
                                         console.log("Email verification sent!");
